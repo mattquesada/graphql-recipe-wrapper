@@ -1,0 +1,31 @@
+{
+  "name": "graphql-recipe-wrapper",
+  "version": "1.0.0",
+  "description": "A simple graphql wrapper around the recipepuppy API (http://www.recipepuppy.com/about/api/).",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattquesada/graphql-recipe-wrapper.git"
+  },
+  "keywords": [
+    "graphql",
+    "node.js",
+    "express",
+    "recipepuppy"
+  ],
+  "author": "Matt Quesada",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mattquesada/graphql-recipe-wrapper/issues"
+  },
+  "homepage": "https://github.com/mattquesada/graphql-recipe-wrapper#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "express-graphql": "^0.6.12",
+    "graphql": "^14.0.0"
+  }
+}
