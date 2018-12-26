@@ -4,7 +4,7 @@
   "description": "A simple graphql wrapper around the recipepuppy API (http://www.recipepuppy.com/about/api/).",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -26,6 +26,7 @@
   "dependencies": {
     "express": "^4.16.3",
     "express-graphql": "^0.6.12",
-    "graphql": "^14.0.0"
+    "graphql": "^14.0.0",
+    "node-fetch": "^2.3.0"
   }
 }
