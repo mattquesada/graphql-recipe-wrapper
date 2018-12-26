@@ -12,4 +12,4 @@ Very much a work in progress :)
 
 3. Start the express-graphql server with `npm start`.
 
-4. The debugging interface is provided by `graphiql` and can be found at `localhost:4000/graphQL` in your browser.
+4. The debugging interface is provided by `graphiql` and can be found at `localhost:4000/graphql` in your browser.
