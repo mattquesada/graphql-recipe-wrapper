@@ -38,7 +38,8 @@ const RecipesQuery = {
           ingredients: ingredientsList
         });
       }
-    });
+    })
+    .catch(err => {throw err});
     return recipeList;
   }
 };

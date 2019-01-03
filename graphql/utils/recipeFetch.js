@@ -14,11 +14,8 @@ const constructFullURL = (dishName, ingredientList) => {
   // append ingredients 
   if(ingredientList) { 
     fullURL += `i=`;
-    for (let index = 0; index < ingredientList.length; index++) {
-      fullURL += ingredientList[index];
-    }
+    fullURL += ingredientList.join();
   } 
-
   return fullURL;
 };
 
